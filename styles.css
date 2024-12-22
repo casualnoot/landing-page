@@ -73,8 +73,11 @@ button{
     font-weight: bold;
     font-size: 14px;
     margin: 0;
+    cursor: pointer;
 }
-
+button:hover{
+    background-color: #5394f7;
+}
 h2{
     display: flex;
     justify-content: center;
