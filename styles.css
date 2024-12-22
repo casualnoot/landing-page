@@ -15,6 +15,7 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: block;
 }
 
 a{
@@ -25,10 +26,10 @@ a{
 .header{
     display: flex;
     background-color: #1F2937;
-    padding: 0 350px;
-    justify-content: space-between;
+    width: 200vh;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    gap: 880px;
 
 }
 img{
@@ -39,11 +40,11 @@ img{
 .section-1{
     display: flex;
     background-color: #1F2937;
-    gap: 30px;
-    padding: 0 350px;
-    justify-content: space-between;
+    gap: 300px;
+    width: 200vh;
+    height: 400px;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 .section-1-1{
@@ -84,11 +85,85 @@ h2{
 
 .image-box{
     display: flex;
-    padding: 0 500px;
-    justify-content: space-evenly;
+    width: 200vh;
+    height: 300px;
+    justify-content: center;
 }
 .image-text{
     display: block;
     width: 150px;
     height: 300px;
+    margin-right: 50px;
+    color: #808181;
+    text-align: center;
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    margin-top: 80px;
+    width: 200vh;
+    height: 400px;
+}
+
+.section-2-1{
+    width: 500px;
+}
+
+
+#name{
+    text-align: right;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 10px;
+    color: #1F2937;
+    margin-right: 20px;
+}
+#quote{
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 10px;
+    color: #1F2937;
+}
+
+.section-3{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-1{
+    width: 800px;
+    display: flex;
+    background-color: #3883F6;
+    padding: 30px 50px;
+    border-radius: 6px;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.section-3-1 button{
+    border: 2px solid white;
+}
+
+.text{
+    display: block;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 60px;
+
 }
